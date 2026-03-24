@@ -54,8 +54,8 @@ let aztec1 = new Aztec(180,40);
 
 //Beben
 
-maya1.drinkColacao();
-aztec1.drinkNesquik();
+maya1.drinkColacao();//Sube power en 10//50
+aztec1.drinkNesquik();//Sube life en 10//190
 
 //Maya ataca a azteca. Azteca defiende:
 let damageFromMaya = maya1.attack();
